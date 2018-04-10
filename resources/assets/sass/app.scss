@@ -1,0 +1,35 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+/* forms */
+
+input, textarea, select, .uneditable-input {
+  border: 1px solid #bbb;
+  margin-bottom: 15px;
+}
+
+input {
+  height: auto !important;
+}
+
+.panel {
+  margin-top: 50px;
+}
+
+#logout {
+  cursor: default;
+  &:hover {
+    background-color: transparent;
+  }
+}
